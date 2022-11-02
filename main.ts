@@ -38,6 +38,8 @@ basic.forever(function () {
         4,
         5
         ]
+    } else if (false) {
+    	
     } else {
         ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P1, 190)
         ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P10, 300)
@@ -77,6 +79,11 @@ basic.forever(function () {
             ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P1, 190)
             ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P10, 300)
             basic.pause(100)
+        } else if (list[1] == max) {
+            ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P1, 190)
+            ModuleWorld_PWM.Servo(ModuleWorld_PWM.mwServoNum.P10, 300)
+        } else if (false) {
+        	
         }
     }
 })
